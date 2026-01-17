@@ -1,4 +1,4 @@
-# 🔐 OpenSource-SocasS
+# 🔐 OpenSource-SocaaS
 ## Open-Source Security Operations Center as a Service (SOCaaS)
 
 ![Security](https://img.shields.io/badge/Security-SOCaaS-blue)
