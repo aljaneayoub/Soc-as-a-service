@@ -83,20 +83,6 @@ This dashboard highlights:
 
 ---
 
-### 🔹 Real-Time Alerting & Incident Notification (Slack)
-
-*Critical security alerts forwarded instantly to the SOC communication channel.*
-
-- Alerts triggered by high-severity Wazuh rules
-- Immediate visibility for SOC analysts
-- Enables fast investigation and response
-
-Example shown:
-- **DANGER – ACTIVE WEB APP HACKING**
-- Multiple correlated events within a short time window
-
-![Slack Alerts](screenshots/slack_security_alerts.png)
-
 ### 🔹 Alert Investigation & Log Details
 *Detailed alert view showing SSH brute-force attempts with geolocation and MITRE techniques.*
 
@@ -111,10 +97,6 @@ Example shown:
 - Alerts triggered by high-severity Wazuh rules
 - Immediate visibility for SOC analysts
 - Enables fast investigation and response
-
-Example shown:
-- **DANGER – ACTIVE WEB APP HACKING**
-- Multiple correlated events within a short time window
 
 ![Slack Alerts](screenshots/slack_security_alerts.png)
 
