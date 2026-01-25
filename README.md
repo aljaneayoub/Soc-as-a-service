@@ -12,7 +12,7 @@
 
 ![SOC Architecture](socaas_architecture.png)
 
-OpenSource-SocasS is built on a **cloud-native SOCaaS architecture** deployed on **AWS EC2**.  
+OpenSource-SocaaS is built on a **cloud-native SOCaaS architecture** deployed on **AWS EC2**.  
 The architecture integrates **SIEM, IDS/IPS, Vulnerability Management, Threat Intelligence, and Incident Response** using open-source tools.
 
 ### Architecture Components
@@ -53,9 +53,74 @@ The architecture integrates **SIEM, IDS/IPS, Vulnerability Management, Threat In
 
 ---
 
+## 🖼️ Screenshots – Proof of Work
+
+### 🔹 Wazuh Agent Management
+*Active monitoring of Windows and Linux endpoints with full agent coverage.*
+
+![Wazuh Agents](screenshots/wazuh_agents.png)
+
+---
+
+### 🔹 Security Events & Threat Detection
+*Real-time security events, alert levels, authentication failures, and MITRE ATT&CK mapping.*
+
+![Wazuh Security Events](screenshots/security_events_dashboard.png)
+
+---
+
+### 🔹 Security Monitoring & Threat Visibility (Elastic)
+
+*Real-time visualization of security events collected from monitored endpoints.*
+
+This dashboard highlights:
+- **Source IP countries attempting authentication**
+- **Global attack distribution (Geo map)**
+- **Most interacting IP addresses**
+- **Authentication failures and abnormal activity patterns**
+
+![Elastic Security Dashboard](screenshots/elastic_security_dashboard.png)
+
+---
+
+### 🔹 Real-Time Alerting & Incident Notification (Slack)
+
+*Critical security alerts forwarded instantly to the SOC communication channel.*
+
+- Alerts triggered by high-severity Wazuh rules
+- Immediate visibility for SOC analysts
+- Enables fast investigation and response
+
+Example shown:
+- **DANGER – ACTIVE WEB APP HACKING**
+- Multiple correlated events within a short time window
+
+![Slack Alerts](screenshots/slack_security_alerts.png)
+
+### 🔹 Alert Investigation & Log Details
+*Detailed alert view showing SSH brute-force attempts with geolocation and MITRE techniques.*
+
+![Alert Details](screenshots/alert_details.png)
+
+---
+
+### 🔹 Real-Time Alerting & Incident Notification (Slack)
+
+*Critical security alerts forwarded instantly to the SOC communication channel.*
+
+- Alerts triggered by high-severity Wazuh rules
+- Immediate visibility for SOC analysts
+- Enables fast investigation and response
+
+Example shown:
+- **DANGER – ACTIVE WEB APP HACKING**
+- Multiple correlated events within a short time window
+
+![Slack Alerts](screenshots/slack_security_alerts.png)
+
 ## 📖 Description
 
-OpenSource-SocasS is a cloud-based **Security Operations Center as a Service (SOCaaS)** built entirely using **open-source security tools** and deployed on **AWS**.
+OpenSource-SocaaS is a cloud-based **Security Operations Center as a Service (SOCaaS)** built entirely using **open-source security tools** and deployed on **AWS**.
 
 It provides:
 - Centralized security monitoring
@@ -104,5 +169,3 @@ The project demonstrates how organizations can build a **modern SOC architecture
 | Incident Response | TheHive |
 | SOAR | Cortex |
 | Notifications | Slack, Email |
-
----
